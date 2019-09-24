@@ -9,6 +9,7 @@ branches:
         - master
 
 install:
+    - pip install pandas
     - pip install pycodestyle
     - pip install pytest
     - pip install coverage
