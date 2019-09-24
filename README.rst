@@ -1,6 +1,8 @@
 cardinality.py
 ==============
 
+|Build-Status| |Coverage-Status| |License|
+
 ``cardinality.py`` is a small tool written in Python for examining
 the cardinality of a relation between two datasets. All the code is
 contained within a single file that can be imported using Python's
@@ -113,3 +115,11 @@ Author and maintainer
 ---------------------
 
 Markus Englund, markus.englund@nrm.se
+
+
+.. |Build-Status| image:: https://travis-ci.org/naturhistoriska/cardinality.py.svg?branch=master
+   :target: https://travis-ci.org/naturhistoriska/cardinality.py
+.. |Coverage-Status| image:: https://codecov.io/gh/Naturhistoriska/cardinality.py/branch/master/graph/badge.svg
+   :target: https://codecov.io/gh/Naturhistoriska/cardinality.py
+.. |License| image:: https://img.shields.io/badge/license-MIT-blue.svg
+   :target: https://raw.githubusercontent.com/naturhistoriska/cardinality.py/master/LICENSE.txt
